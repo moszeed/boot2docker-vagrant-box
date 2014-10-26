@@ -1,4 +1,7 @@
 
+## 23/08/2014 (v.1.2.0)
+- Moving to boot2docker 1.2.0 and docker 1.2.0
+
 ## 13/07/2014 (v1.1.1)
 - Moving to boot2docker 1.1.1 (and Docker 1.1.1 by transitivity)
 - Persisting the b2d dependency into the make.sh script for easying future updates and trusting
