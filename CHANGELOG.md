@@ -1,5 +1,8 @@
 
-## 23/08/2014 (v.1.2.0)
+## Not released yet (v1.3.0)
+- Moving to boot2docker 1.3.0 (and docker 1.3.0)
+
+## 23/08/2014 (v1.2.0)
 - Moving to boot2docker 1.2.0 and docker 1.2.0
 
 ## 13/07/2014 (v1.1.1)
