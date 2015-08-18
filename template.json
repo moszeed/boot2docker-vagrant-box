@@ -1,7 +1,7 @@
 {
     "variables": {
         "B2D_ISO_FILE": "boot2docker.iso",
-        "B2D_ISO_CHECKSUM": "2c314e8686749097f4bd5cc215b1daa8"
+        "B2D_ISO_CHECKSUM": "7e231d3c33e08f08b604fdc9a557b64b"
     },
     "builders": [{
         "type": "virtualbox-iso",
@@ -9,7 +9,7 @@
         "iso_checksum_type": "md5",
         "iso_checksum": "{{user `B2D_ISO_CHECKSUM`}}",
         "boot_wait": "5s",
-        "guest_additions_mode": "attach",
+        "guest_additions_mode": "disable",
         "guest_os_type": "Linux_64",
         "ssh_username": "docker",
         "ssh_password": "tcuser",
